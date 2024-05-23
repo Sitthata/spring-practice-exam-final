@@ -1,10 +1,8 @@
-package com.example.practiceexamfinal.model;
+package com.example.practiceexamfinal.model.dto;
 
+import com.example.practiceexamfinal.model.Assignment;
 import lombok.Builder;
 import lombok.Data;
-import lombok.Value;
-
-import java.io.Serializable;
 
 /**
  * DTO for {@link Assignment}

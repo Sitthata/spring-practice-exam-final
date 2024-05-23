@@ -2,10 +2,8 @@ package com.example.practiceexamfinal.services;
 
 import com.example.practiceexamfinal.Repository.AssignmentRepository;
 import com.example.practiceexamfinal.model.Assignment;
-import com.example.practiceexamfinal.model.AssignmentDTO;
+import com.example.practiceexamfinal.model.dto.AssignmentDTO;
 import com.example.practiceexamfinal.properties.FileStorageProperties;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;

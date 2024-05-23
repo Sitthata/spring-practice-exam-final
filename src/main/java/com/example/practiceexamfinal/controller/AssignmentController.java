@@ -1,12 +1,10 @@
 package com.example.practiceexamfinal.controller;
 
-import com.example.practiceexamfinal.model.AssignmentDTO;
+import com.example.practiceexamfinal.model.dto.AssignmentDTO;
 import com.example.practiceexamfinal.services.AssignmentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.Resource;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
